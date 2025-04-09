@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>systèmes de numération</title>
+    <link rel="stylesheet" href="demo.css">
+    <link rel="icon" href="C:/Users/hp/Pictures/207335069-icône-pour-les-mathématiques-numériques.jpg">
+</head>
+<body>
+    <header>
+        <h1>Explorez les bases des systèmes de numération : Binaire, Décimal, Hexadécimal et leurs conversions</h1>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#convertion1">conversions 2-10</a>
+                </li>
+                <li>
+                    <a href="#convertion2">conversions 10-16</a>
+                </li>
+                <li>
+                    <a href="#c2">complement a 2</a>
+                </li>
+                <li>
+                    <a href="#expliquer">explication</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <h1>pour convertir de decimal vers une autre base check le button</h1>
+    <section id="convertion1">
+        <h1>
+            conversion entre la base 2 (Binaire) et la base 10 (decimal)
+        </h1>
+        <input type="number" id="convertir" placeholder="entrez un nombre">
+        <input type="checkbox" id="dec" value="decimal">
+        <label for="dec">decimal</label>
+        <input type="number" id="base" placeholder="entrez la base">
+        <button id="covertbtn">convertir</button>
+        <br>
+        <input type="number" id="resultat" placeholder="resultat">
+    </section>
+
+
+    <section id="conversions2">
+        <h1>
+            conversions entre la base 10 (decimal) et la base 16 (Hexadécimal)
+        </h1>
+        <input type="text" id="convertir1" placeholder="entrez un nombre">
+        <input type="checkbox" id="dec1" value="decimal">
+        <label for="dec1">decimal</label>
+        <input type="number" id="base1" placeholder="entrez la base">
+        <button id="covertbtn1">convertir</button>
+        <br>
+        <input type="text" id="resultat1" placeholder="resultat">
+    </section>
+
+
+    <section id="c2">
+        <h1>complement 2</h1>
+        <input type="number" id="co2" placeholder="entrez un nombre">
+        <input type="checkbox" id="co2b" value="binaire">
+        <label for="co2b">binaire</label>
+        <br>
+        <input type="number" id="rs" placeholder="resultat">
+        <button id="covertbtn2">convert</button>
+    </section>
+
+
+    <section id="expliquer">
+        <h1>explication </h1>
+        <p> par example si on veut convertir un nombre dans le binaire vers le decimal </p>
+        <img src="C:/Users/hp/Pictures/decimal_binaire.jpg" alt="">
+        <p>pour convertir un nombre binaire vers le decimal </p>
+        <img src="C:\Users\hp\Pictures\512.webp" alt="">
+        <p>si on peut ecrire les 2 base comme sa: on prend la base1=b1 et la base2=b2 est b2=b1^n par example le binaire vers le Hexadécimal </p>
+        <img src="C:\Users\hp\Pictures\images.png" alt="">
+        <p>pour convertir de c2 vers le binaire</p>
+        <img src="C:\Users\hp\Pictures\complement-deux.png" alt="">
+    </section>
+    <script src="demo.js"></script>
+
+
+</body>
+</html>
